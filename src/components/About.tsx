@@ -19,8 +19,7 @@ export const About = () => {
           <div>
             <p>
               I pride myself on crafting clean, elegant code. I'm committed
-              utilizing best practices and seeking opportunities for
-              improvement.
+              utilizing best practices. I am particuarly interested in software which improves the lives of others.
             </p>
           </div>
         </div>
