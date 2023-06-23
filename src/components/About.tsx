@@ -3,6 +3,7 @@ import React from "react";
 export const About = () => {
   return (
     <div id="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+      {/* <div id="about" className="w-full h-screen bg-[#0a192f] text-gray-300"> */}
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full x-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
@@ -19,7 +20,8 @@ export const About = () => {
           <div>
             <p>
               I pride myself on crafting clean, elegant code. I'm committed
-              utilizing best practices. I am particuarly interested in software which improves the lives of others.
+              utilizing best practices. I am particuarly interested in software
+              which improves the lives of others.
             </p>
           </div>
         </div>

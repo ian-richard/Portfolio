@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,19 +18,29 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <a href="#">Home</a>
+          <Link to="home" smooth={true} offset={50} duration={500}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#">About</a>
+          <Link to="about" smooth={true} offset={50} duration={500}>
+            About
+          </Link>
         </li>
         <li>
-          <a href="#">Skills</a>
+          <Link to="skills" smooth={true} offset={50} duration={500}>
+            Skills
+          </Link>
         </li>
         <li>
-          <a href="#">Work</a>
+          <Link to="work" smooth={true} offset={50} duration={500}>
+            Work
+          </Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link to="contact" smooth={true} offset={50} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
       {/* Hamburger */}
@@ -46,19 +57,59 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <a href="#">Home</a>
+          <Link
+            onClick={handleClick}
+            to="home"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Home
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#">About</a>
+          <Link
+            onClick={handleClick}
+            to="about"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            About
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#">Skills</a>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Skills
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#">Work</a>
+          <Link
+            onClick={handleClick}
+            to="work"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Work
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <a href="#">Contact</a>
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
 
