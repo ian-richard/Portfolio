@@ -10,7 +10,7 @@ const Navbar = () => {
       {/* <div className="text-[#0a192f] bg-[#ccd6f6] font-[Pacifico] text-2xl">
         &nbsp;I.R Dev&nbsp;
       </div> */}
-      <div className="text-[#ccd6f6] font-[Pacifico] text-2xl">
+      <div className="text-[#ccd6f6] font-[Freehand] text-2xl">
         &nbsp;I.R Dev&nbsp;
       </div>
 

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -17,7 +18,7 @@
   }
 }
 
-.content-div {
+/* .content-div {
   background-size: cover;
   background-position: center;
   width: '250px';
@@ -27,7 +28,7 @@
 .content-div:hover {
   background-image: linear-gradient(
     /* to right, */
-    rgba(112, 157, 255, 0.8),
+    /* rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
-  )!important;
-}
+  )!important; */ 
+/* } */
