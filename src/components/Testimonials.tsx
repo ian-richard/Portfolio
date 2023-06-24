@@ -4,9 +4,9 @@ const Testimonials = () => {
   return (
     <div
       id="testimonials"
-      className="w-full h-screen bg-bgColor text-myTextColor"
+      className="w-full min-h-screen bg-bgColor text-myTextColor"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col items-start">
+      <div className="max-w-full mx-auto p-4 flex flex-col items-start">
         <p className="text-4xl font-bold border-b-4 border-customHighlight">
           Testimonials
         </p>
@@ -14,7 +14,7 @@ const Testimonials = () => {
       </div>
 
       {/* Quotes */}
-      <div className="container mx-auto px-4 sm:px-8 sm:pb-8 lg:px-38">
+      <div className="container mx-auto px-4 sm:px-32 lg:px-52">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div id="quote" className="py-8 bg-lightBgColor text-bgColor">
             <p className="font-[Freehand] text-8xl p-0 -mb-14">"</p>
