@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         bgColor: "#0a192f",
-        customHighlight: "#d81b60",
+        customHighlight: "#4717f6",
+        // customHighlight: "#d81b60",
         myTextColor: "#9CA3AF",
         lightBgColor: "#9CA3AF",
       },

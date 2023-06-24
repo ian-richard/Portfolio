@@ -6,8 +6,8 @@ const Testimonials = () => {
       id="testimonials"
       className="w-full min-h-screen bg-bgColor text-myTextColor"
     >
-      <div className="max-w-full mx-auto p-4 flex flex-col items-start">
-        <p className="text-4xl font-bold border-b-4 border-customHighlight">
+      <div className="p-4 flex flex-col items-start sm:px-32 lg:px-52">
+        <p className="text-4xl font-bold border-b-4 border-customHighlight ">
           Testimonials
         </p>
         <p className="py-4">A few words from my colleagues</p>
@@ -17,7 +17,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 sm:px-32 lg:px-52">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div id="quote" className="py-8 bg-lightBgColor text-bgColor">
-            <p className="font-[Freehand] text-8xl p-0 -mb-14">"</p>
+            <p className="font-[Freehand] text-8xl pl-2 -mb-16 -mt-6">"</p>
             <p className="italic p-4">
               Ian's done a fabulous job and is a real asset to the team. Thanks
               for keeping the development on the right path and for all the
@@ -30,7 +30,7 @@ const Testimonials = () => {
             </p>
           </div>
           <div id="quote" className="py-8 bg-lightBgColor text-bgColor">
-            <p className="font-[Freehand] text-8xl p-0 -mb-14">"</p>
+            <p className="font-[Freehand] text-8xl pl-2 -mb-16 -mt-6">"</p>
             <p className="italic p-4">
               "Not only is he hard working and keen to learn but making progress
               (probably too much as we need to try and keep up with the tickets)
@@ -42,7 +42,7 @@ const Testimonials = () => {
             </p>
           </div>
           <div id="quote" className="py-8 bg-lightBgColor text-bgColor">
-            <p className="font-[Freehand] text-8xl p-0 -mb-14">"</p>
+            <p className="font-[Freehand] text-8xl pl-2 -mb-16 -mt-6">"</p>
             <p className="italic p-4">
               Since joining the banking team, he’s picked up journey development
               very quickly, is a pleasure to work with and always asks the right
@@ -54,7 +54,7 @@ const Testimonials = () => {
             </p>
           </div>
           <div id="quote" className="py-8 bg-lightBgColor text-bgColor">
-            <p className="font-[Freehand] text-8xl p-0 -mb-14">"</p>
+            <p className="font-[Freehand] text-8xl pl-2 -mb-16 -mt-6">"</p>
             <p className="italic p-4 pr-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
               rutrum eros id quam blandit, at fringilla arcu commodo. Vestibulum
@@ -63,7 +63,7 @@ const Testimonials = () => {
             </p>
             <p className="text-right  pr-8">
               {" "}
-              - Krishna.D, Lead Developer, Coforge
+              - Sri.D, Lead Developer, Coforge
             </p>
           </div>
         </div>
