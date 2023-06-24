@@ -7,11 +7,11 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-bgColor text-gray-300">
       {/* <div className="text-[#0a192f] bg-[#ccd6f6] font-[Pacifico] text-2xl">
         &nbsp;I.R Dev&nbsp;
       </div> */}
-      <div className="text-[#ccd6f6] font-[Freehand] text-2xl">
+      <div className="text-[#ccd6f6] font-[Freehand] text-2xl border-customHighlight">
         &nbsp;I.R Dev&nbsp;
       </div>
 
@@ -38,6 +38,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to="testimonials" smooth={true} offset={50} duration={500}>
+            Testimonials
+          </Link>
+        </li>
+        <li>
           <Link to="contact" smooth={true} offset={50} duration={500}>
             Contact
           </Link>
@@ -53,7 +58,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen  bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen  bg-bgColor flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
